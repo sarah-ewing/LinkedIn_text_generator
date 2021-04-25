@@ -21,8 +21,9 @@ column = ['job_title', 'individual_url', 'end_date', 'date_posted',
           'hiringOrganization','hiringOrganization', 'addressLocality',
           'addressRegion', 'postalCode','addressCountry']
 
-
-for ii in range(1110, 10001):
+## Each ii is a whole page of job descriptions
+### each page should have 25 job descriptions
+for ii in range(0, 1000):
     
     if ii % 10 == 0:
         print(ii)
